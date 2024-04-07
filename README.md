@@ -1,4 +1,4 @@
-# **The Power of a Button: Unlocking Customer Engagement through Hypothesis Testing**
+# **The Power of a Button: Unlocking Customer Engagement through A/B Testing**
 
 ![alt text](src/img/image.png)
 
