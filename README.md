@@ -1,4 +1,4 @@
-# **The Power of a Button: Unlocking Customer Engagement through A/B Testing**
+# **The Power of a Button: Unlocking Customer Engagement through Hypothesis Testing**
 
 ![alt text](src/img/image.png)
 
@@ -12,11 +12,11 @@ Having delved into concepts like A/B testing and hypothesis testing, I was eager
 
 ![alt text](src/img/image-1.png)
 
-The primary objective of this project was to determine whether replacing a hyperlink with a button for the Loyalty program signup on a grocery store website would significantly impact the number of customers signing up. A/B testing and statistical analysis were employed to investigate if the observed change in signups was due to the UI change or simply random chance.
+The primary objective of this project was to determine whether replacing a hyperlink with a button for the Loyalty program signup on a grocery store website would significantly impact the number of customers signing up. Analysis of A/B testing dataset and hypothesis testing were employed to investigate if the observed change in signups was due to the UI change or simply random chance.
 
 ## **Results**
 
-Leveraging A/B testing and statistical analysis, this project investigated the impact of UI changes on customer engagement for a grocery store's Loyalty program signup. The core hypothesis was that replacing the existing hyperlink with a button would lead to a significant increase in signups.
+Leveraging A/B testing dataset and hypothesis testing, this project investigated the impact of UI changes on customer engagement for a grocery store's Loyalty program signup. The core hypothesis was that replacing the existing hyperlink with a button would lead to a significant increase in signups.
 
 The results provided strong evidence in favour of the hypothesis. Users exposed to the button displayed a statistically significant **4.66% increase in Click-Through Rate (CTR)** for signing up for the Loyalty program compared to those encountering the hyperlink.
 
@@ -80,7 +80,7 @@ Before applying statistical tests, it's crucial to verify that our data meets th
 
 Given the non-normal data distribution, a non-parametric test, the Mann-Whitney U test, is a more suitable choice for analyzing the CTR difference between the control and testing groups.
 
-**Key Point:** Verifying assumptions ensures we select the appropriate statistical test, leading to more reliable conclusions for our A/B testing results.
+**Key Point:** Verifying assumptions ensures we select the appropriate statistical test, leading to more reliable conclusions for our hypothesis testing on the A/B testing dataset's results.
 
 ### **Hypothesis Testing: The Mann-Whitney U Test for Binary Data**
 
@@ -111,7 +111,7 @@ This project provided a valuable foundation in A/B testing methodologies. Moving
 
 ## **Get Hands-On: A/B Testing Implementation**
 
-**For any readers interested in a more detailed explanation of the analysis, code implementation, and thought processes behind this A/B testing project, my Jupyter Notebook** [*(Click here)*](./ab_testing_analysis.ipynb) **provides a comprehensive walk-through. This resource is perfect for those who want to learn how to implement A/B testing on their own and gain a deeper understanding of the concepts involved.**
+**For any readers interested in a more detailed explanation of the analysis, code implementation, and thought processes behind this Hypothesis Testing project, my Jupyter Notebook** [*(Click here)*](./ab_testing_analysis.ipynb) **provides a comprehensive walk-through. This resource is perfect for those who want to learn how to implement hypothesis testing on a A/B Testing dataset on their own and gain a deeper understanding of the concepts involved.**
 
 ## **Conclusion**
 This project successfully demonstrated the power of UI optimization and data-driven decision-making within the context of e-commerce and customer engagement. Utilizing A/B testing and the Mann-Whitney U test, we uncovered a statistically significant difference in Click-Through Rates (CTR) between a button and a hyperlink for promoting signups to a grocery store's Loyalty program.
